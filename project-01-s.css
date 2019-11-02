@@ -1,0 +1,234 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-position: top center;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* Start writing your code here */
+h1 {
+  font-family: sans-serif;
+  color: #deb887   
+ }
+ 
+/* app */
+
+.container {
+  padding: 32px 80px 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 32px 24px 16px;
+  }
+}
+
+.card{
+  width:20%;
+  display:inline-block;
+  padding: 2%;
+}
+
+.title {
+  font-size: 24px;
+  color: #484848;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #484848;
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+
+.footer {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 300;
+  border-top: 1px solid #cccccc;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.title-border {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 16px;
+  margin-bottom: 42px;
+}
+
+/* hero secion */
+.hero {
+  padding: 120px 80px;
+}
+
+.hero-background {
+  color: #484848;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.unsplash.com/photo-1572527144093-c15167bd20d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
+}
+
+.hero-title {
+  margin-top: 0 0 32px;
+  font-size: 46px;
+  color: white;
+  width: 700px;
+}
+
+.hero-button-container {
+  display: inline-block;
+  width: 300px;
+  margin-right: 24px;
+}
+
+.label {
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 40px 80px;
+  }
+  .hero-title {
+    width: 100%;
+  }
+}
+
+/* button */
+
+.button {
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px 64px;
+  font-weight: 500;
+}
+
+.hero-button {
+  width: 300px;
+}
+
+.button-white {
+  background-color: #ffffff;
+  border-color: white;
+  color: #484848;
+}
+
+.button-white-outline {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: white;
+}
+
+.button-green {
+  background-color: #008489;
+  border-color: #008489;
+  color: white;
+}
+
+/* card */
+
+.card {
+  width: 33%;
+  padding: 0 8px;
+  margin-right: -4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-image {
+  height: 200px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.card-title {
+  color: #5d5d5d;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.card-footer {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.info-card-image {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* images link from unsplash*/
+
+.image {
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-1 {
+  background-image: url('https://images.unsplash.com/photo-1569243177055-f4855fc83949?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+}
+.image-2 {
+  background-image: url('https://images.unsplash.com/photo-1568387022280-92935eb78c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
+}
+.image-3 {
+  background-image: url('https://images.unsplash.com/photo-1559251655-c761e05b2cc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+}
+.image-4 {
+  background-image: url('https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1618&q=80');
+}
+.image-5 {
+  background-image: url('https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
+}
+.image-6 {
+  background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+}
+
+/* start writing your code here */
+
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-item {
+  padding: 0 8px;
+  margin: 0 0 40px;
+  flex-grow: 1;
+  flex-basis: 340px;
+}
+
